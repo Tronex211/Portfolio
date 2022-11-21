@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-
+//https://reactjs.org/tutorial/tutorial.html#setup-option-2-local-development-environment
 
 class Square extends React.Component {
   render() {
