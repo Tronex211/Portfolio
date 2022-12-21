@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import TicTacToe from './TicTacToe';
-import { LinkHTMLAttributes } from 'react';
+import React from 'react';
+import Game from './TicTacToe';
 
 function App() {
   return (
@@ -13,9 +13,7 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="/TicTacToe.js"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="Game"
         >
           Learn React
         </a>
